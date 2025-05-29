@@ -1,16 +1,506 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS-Jefferson_sanche</title>
-    <link rel="icon" href="" type="public/imagenes/logo.jpg" href="favicon.png">
+    <title>JS-Jefferson_sanchez</title>
+    <meta
+      name="description"
+      content="Encuentra tu estilo con nuetra coleccion de camisas, relojes y fragancias"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/jpg" href="public/imagenes/logo.jpg" />
+    <meta
+      name="theme-color"
+      content="#000000"
+      media="(prefers-color-scheme: light)"
+    />
+    <!-- Color para modo oscuro -->
+    <meta
+      name="theme-color"
+      content="#1a1a1a"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="/src/app.css" />
+    <script defer src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      
+    <header class="header_principal">
+      <div class="contenido_header">
+        <img id="logo"
+          src="public/imagenes/logo.jpg"
+          alt="logo de la empresa"
+          width="200"
+          height="200"
+        />
+        <nav class="navegacion">
+          <a href="#inicio">inicio</a>
+          <a href="#camisetas">camisetas</a>
+          <a href="#relojes">relojes</a>
+          <a href="#fragancias">fragancias</a>
+          <a href="#contato">contacto</a>
+        </nav>
+      </div>
     </header>
+    <hr>
+    <main>
+    
+    </main>
+    <section class="contenedor">
+      <header class="contenedor__titulo">
+        <h1 class="productos">Productos</h1>
+      </header>
 
+      <!-- Sección Camisetas -->
+      <section class="section__productos">
+        <h2>Camisetas</h2>
+        <div class="productos__grid">
+          <!-- Producto -->
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_azul.jpg"
+              alt="Camiseta azul"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta azul</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_blanca_overSide.jpg"
+              alt="Camiseta blanca oversize"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta blanca oversize</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_blanca.jpg"
+              alt="Camiseta blanca"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta blanca</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_cafe_overside.jpg"
+              alt="Camiseta café oversize"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta café oversize</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_negra_overside.jpg"
+              alt="Camiseta negra oversize"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta negra oversize</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_negra.jpg"
+              alt="Camiseta negra"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta negra</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_roja.jpg"
+              alt="Camiseta roja"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta roja</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_veis.jpg"
+              alt="Camiseta beige"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta beige</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/camisetas/camisa_verde_overside.jpg"
+              alt="Camiseta verde oversize"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Camiseta verde oversize</h3>
+              <p class="producto__descripcion">En tela premium</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección Relojes -->
+      <section class="section__productos">
+        <h2>Relojes</h2>
+        <div class="productos__grid">
+          <!-- Repite para cada reloj -->
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/Imagen de WhatsApp 2025-05-25 a las 17.23.03_ad0e1e0b (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/Imagen de WhatsApp 2025-05-25 a las 17.24.58_289a6b44 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/Imagen de WhatsApp 2025-05-25 a las 17.24.59_f50133f9 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/Imagen de WhatsApp 2025-05-25 a las 20.11.44_3de90cb8 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/Imagen de WhatsApp 2025-05-25 a las 20.11.44_7a1df618 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/Imagen de WhatsApp 2025-05-25 a las 20.11.45_fa86e351 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/IMG-20250525-WA0018 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/IMG-20250525-WA0019 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/IMG-20250525-WA0025 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/IMG-20250525-WA0031 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Reloges/IMG-20250525-WA0032 (1).jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Fragancias-->
+      <section class="section__productos">
+        <h2>fragancias</h2>
+        <div class="productos__grid">
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/Imagen de WhatsApp 2025-05-25 a las 17.26.18_13b0ee4b.jpg"
+              alt=""
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0004.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0005.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0006.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0009.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0010.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0011.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0013.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0014.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+            <div class="producto__contenido">
+              <h3 class="producto__nombre">Reloj clásico</h3>
+              <p class="producto__descripcion">Elegante y moderno</p>
+              <p class="producto__precio">1000</p>
+            </div>
+          </div>
+          <div class="producto">
+            <img
+              class="producto__imagen"
+              src="public/imagenes/Fragancias/IMG-20250525-WA0016.jpg"
+              alt="Reloj 1"
+              width="200"
+              height="200"
+            />
+        </div>
+      </section>
+    </section>
+
+    <footer></footer>
   </body>
 </html>

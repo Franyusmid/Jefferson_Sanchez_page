@@ -1,0 +1,98 @@
+:root {
+  --principal: #ffff;
+  --secudario: #4fdced;
+
+  --fuentePrincipal: "Relewa", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-padding-top: 12rem;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--principal) black;
+  height: 100%;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--principal);
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 1rem 0 4rem 0;
+}
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 5.8rem;
+}
+
+h3 {
+  font-size: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/** utilizades*/
+
+/*header*/
+.header_principal {
+  margin: 0 3rem 0 3rem;
+}
+
+.contenido_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  object-fit: cover;
+  width: 15rem;
+  height: 15rem;
+}
+
+.navegacion {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+}
+.navegacion a {
+  color: #121212;
+}
+
+main {
+  height: 50rem;
+  background: url(/public/imagenes/camisetas/varias_camisa_3.jpg);
+}
