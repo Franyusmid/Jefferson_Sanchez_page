@@ -29,12 +29,7 @@ body {
   list-style: none;
   margin: 0;
   height: 100%;
-}
-
-h1,
-h2,
-h3 {
-  margin: 1rem 0 4rem 0;
+  padding-top: 12rem;
 }
 
 h1 {
@@ -67,22 +62,38 @@ img {
 
 /*header*/
 .header_principal {
-  margin: 0 3rem 0 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--principal);
+  padding: 1rem 3rem;
+  border-bottom: #b1a8a8 solid;
+  margin-top: 0;
 }
 
 .contenido_header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-#logo {
+#contenido_logo {
+  width: 50%;
+  margin-left: 6rem;
+}
+
+#contenido_logo-img {
   object-fit: cover;
-  width: 15rem;
-  height: 15rem;
+  width: 10rem;
+  height: 10rem;
+}
+#contenido_logo_marca {
+  margin: 0;
 }
 
 .navegacion {
-  width: 50%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,9 +101,45 @@ img {
 }
 .navegacion a {
   color: #121212;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.navegacion a:hover {
+  background-color: #333333;
+  color: #ffffff;
 }
 
 main {
+  margin-top: 3rem;
   height: 50rem;
-  background: url(/public/imagenes/camisetas/varias_camisa_3.jpg);
+  background-image: url(/public/imagenes/camisetas/varias_camisa_3.jpg),
+    url(/public/imagenes/camisetas/Imagen\ de\ WhatsApp\ 2025-05-25\ a\ las\ 19.27.48_0dd30b08.jpg);
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+  background-size: 50% 100%, 50% 100%;
+}
+.tamaño_contendor {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contenedor {
+  background-color: #f3f3f3;
+  padding: 2rem 0;
+}
+
+.section__productos {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 2rem;
+}
+
+.productos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  max-width: 120rem;
 }
